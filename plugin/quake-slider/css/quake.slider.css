@@ -1,0 +1,96 @@
+.quake-slider-wrapper
+{
+    position: relative;
+}
+.quake-slider
+{
+    position: relative;
+    overflow: hidden;
+}
+.quake-nav
+{
+    position: absolute;
+    z-index: 10000;
+    top: 45%;
+}
+.quake-nav a
+{
+    position: absolute;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.quake-prev
+{
+    left: 0px;
+}
+.quake-next
+{
+    right: 0px;
+}
+.quake-slider-caption-container
+{
+    position: absolute;
+    z-index: 101;
+    padding: 0;
+}
+.quake-slider-caption
+{
+    position: absolute;
+    z-index: 102;
+    padding: 0;
+}
+
+.quake-nav-wrapper
+{
+    position: relative;
+    z-index: 102;
+}
+.quake-nav-container
+{
+    margin: auto;
+    margin-top: 20px;
+}
+.quake-nav-control
+{
+    cursor: pointer;
+    display: inline-block;
+    text-indent: -9999px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.quake-link
+{
+    position: absolute;
+    z-index: 101;
+}
+.quake-thumbnail
+{
+    position: absolute;
+    z-index: 111;
+    overflow: hidden;
+}
+.quake-thumbnail-preview
+{
+    overflow: hidden;
+}
+.quake-thumbnail-preview img
+{
+    border: none;
+}

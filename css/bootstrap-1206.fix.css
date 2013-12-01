@@ -1,0 +1,128 @@
+/*********** overwrite some Bootstrap settings **************/
+
+.container {
+    width: 1206px;
+}
+.row {
+    margin-left: 0px;
+}
+div.span12 {
+    width: 1206px;
+}
+div.span11 {
+    width: 1105px;
+}
+div.span10 {
+    width: 1004px;
+}
+div.span9 {
+    width: 903px;
+}
+div.span8 {
+    width: 802px;
+}
+div.span7 {
+    width: 701px;
+}
+div.span6 {
+    width: 600px;
+}
+div.span5 {
+    width: 499px;
+}
+div.span4 {
+    width: 398px;
+}
+div.span3 {
+    width: 297px;
+}
+div.span2 {
+    width: 196px;
+}
+div.span1 {
+    width: 95px;
+}
+div.offset12 {
+    margin-left: 1218px;
+}
+div.offset11 {
+    margin-left: 1117px;
+}
+div.offset10 {
+    margin-left: 1016px;
+}
+div.offset9 {
+    margin-left: 915px;
+}
+div.offset8 {
+    margin-left: 814px;
+}
+div.offset7 {
+    margin-left: 713px;
+}
+div.offset6 {
+    margin-left: 612px;
+}
+div.offset5 {
+    margin-left: 511px;
+}
+div.offset4 {
+    margin-left: 410px;
+}
+div.offset3 {
+    margin-left: 309px;
+}
+div.offset2 {
+    margin-left: 208px;
+}
+div.offset1 {
+    margin-left: 107px;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    margin-left: 0px;
+}
+
+/** 增加了一个 form-horizontal-inline 类，可以让 form 里面的元素水平排放 **/
+.form-horizontal-inline .control-group{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.form-horizontal-inline .control-group .controls{
+    margin-left: 0;
+    *padding-left: 0px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.form-horizontal-inline .control-group .controls span.input-label{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    display: inline-block;
+    width: 95px;
+    text-align: left;
+}
+
+.form-horizontal-inline .control-group .controls input,
+.form-horizontal-inline .control-group .controls label,
+.form-horizontal-inline .control-group .controls textarea,
+.form-horizontal-inline .control-group .controls div.datetimepicker{
+    float: left;
+}
+
+/******** 修正 validation 错误显示，确保错误显示在下面一行 ***********/
+.form-horizontal-inline .control-group .controls div.help-block{
+    clear:both;
+    display:block;
+}
+
+/******************* 有用的一个类，用于在控件旁边显示一些注释之类的信息 ***********************/
+.form-horizontal-inline .control-group .controls span.comments {
+    color:gray;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 1.5;
+}

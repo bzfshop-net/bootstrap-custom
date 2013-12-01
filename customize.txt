@@ -1,0 +1,16 @@
+@sansFontFamily:        "微软雅黑", "Microsoft Yahei", "宋体", "songti", STHeiti, Helmet, Freesans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@navbarHeight:          30px;
+
+// 966-75--6
+@gridColumns:             12;
+@gridColumnWidth:         75px;
+@gridGutterWidth:         6px;
+
+// 1206--95--6
+@gridColumns:             12;
+@gridColumnWidth:         95px;
+@gridGutterWidth:         6px;
+
+// compat set small font
+@baseFontSize:          12px;
+@baseLineHeight:        14px;
