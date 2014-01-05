@@ -7,7 +7,7 @@
 
 var prettyLoaderRoot = '';
 if(WEB_ROOT_BASE_RES){
-    prettyLoaderRoot = WEB_ROOT_BASE_RES + '/bootstrap-custom/plugin/pretty-loader';
+    prettyLoaderRoot = WEB_ROOT_BASE_RES + 'bootstrap-custom/plugin/pretty-loader';
 }
 
 (function($){$.prettyLoader={version:'1.0.1'};$.prettyLoader=function(settings){settings=jQuery.extend({animation_speed:'fast',bind_to_ajax:true,delay:false,loader:prettyLoaderRoot+'/images/prettyLoader/ajax-loader.gif',offset_top:13,offset_left:10},settings);scrollPos=_getScroll();imgLoader=new Image();imgLoader.onerror=function(){alert('Preloader image cannot be loaded. Make sure the path is correct in the settings and that the image is reachable.');};imgLoader.src=settings.loader;if(settings.bind_to_ajax)
